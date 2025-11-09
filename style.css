@@ -1,0 +1,89 @@
+:root {
+  --azul-unad: #003366;
+  --naranja-unad: #f9a825;
+  --gris: #f4f4f4;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--gris);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--azul-unad);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 10px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 3px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: var(--naranja-unad);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f57c00;
+}
+
+#resultado {
+  background: #eef6ff;
+  border-left: 5px solid var(--azul-unad);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+canvas {
+  margin-top: 20px;
+}
+
+footer {
+  background: var(--azul-unad);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
